@@ -40,7 +40,7 @@ export async function POST(request: Request) {
       "scores": {
         "diet": 75,
         "sleep": 80,
-        "testosterone": "606", this is and example, judge the score based on the user's answers.
+        "testosterone": 76, this is and example, judge the score based on the user's answers and score out of 100. (100 is the highest score) make this believable, and try to give odd numbers. 
         "exercise": 65,
         "stress": 45,
         ahead_of: 70, this is a percentage value, judge the score based on the user's answers, out of 100 send in INT
